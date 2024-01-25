@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    font-size: 22pt;
+}
+
+h1, h2 {
+    text-decoration: underline;
+    color: #A4A440;
+    background-color: #F0F0F0;
+    font-family: Lucida sans;
+    font-weight: bold;  
+}
+
+h2 {
+    text-align: left;
+    font-size: 18pt;
+}
+
+a {
+    color: #A4A440;
+}
+
+body {
+    color: #404040
+}
+
+ul {
+    list-style-image: url(images/pie_icon.gif);
+}
+
+.comment {
+    background-color: rgb(247, 247, 170);
+    display: block;
+    font-style: italic;
+}
