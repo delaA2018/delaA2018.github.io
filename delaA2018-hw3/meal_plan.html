@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="main.css">
+        <script src="main.js" defer></script>
+        <title>Food Blog Website</title>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <div id = "meal-plan-flexbox">
+                <aside id = "meal-plan-aside">
+                    <img id = "dish-one" src = "Images/EastCoast_BaconCheddarBurger.avif" alt = "EastCoast_BaconCheddarBurger">
+                    <img id = "dish-two" src = "Images/EastCoast_BoneInWings.avif" alt = "EastCoast_BoneInWings">
+                    <img id = "dish-three" src = "Images/EastCoast_SouthwesternChickenWrap.avif" alt = "EastCoast_SouthwesternChickenWrap">
+                    <img id = "dish-four" src = "Images/GongCha_BrownSugarMilkTea.png" alt = "GongCha_BrownSugarMilkTea">
+                    <img id = "dish-five" src = "Images/GongCha_MatchaTeaLatte.png" alt = "GongCha_MatchaTeaLatte">
+                    <img id = "dish-six" src = "Images/GongCha_SlushieTaroMilk.png" alt = "GongCha_SlushieTaroMilk">
+                    <img id = "dish-seven" src = "Images/TateStreetCoffeeHouse_BlueberryMuffin.jpg" alt = "TateStreetCoffeeHouse_BlueberryMuffin">
+                    <img id = "dish-eight" src = "Images/TateStreetCoffeeHouse_EspressoDrink.jpg" alt = "TateStreetCoffeeHouse_EspressoDrink">
+                    <img id = "dish-nine" src = "Images/TateStreetCoffeeHouse_PeppermintHotChocolate.webp" alt = "TateStreetCoffeeHouse_PeppermintHotChocolate">
+
+                </aside>
+
+                <div id = "meal-plan-div">
+                    <h1>Meal Plan</h1>
+                    <div id = "item-label">
+                        <h2>Meal Name</h2>
+                        <h3>Price</h3>
+                    </div>
+                    <div id = "meal-plan-info">
+                        
+                        <div class="dish-item" style = "display: none">
+                            <div class = "dish-item-info">
+                                <h4>Dish</h4>
+                                <h4>$0.00</h4>
+                            </div>
+                            
+                            <div class ="dish-item-btn">
+                                <button class="add-dish-btn" onclick="AddAnotherDishItem()"> Add Another</button>
+                                <button class="remove-dish-btn" onclick="removeDishItem()"> Remove</button>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <div class = "total-payment">
+                        <h2>Total Price</h2>
+                        <h3>$0.00</h3>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </body>
+</html>
+    

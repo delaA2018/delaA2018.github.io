@@ -1,0 +1,107 @@
+.main-page-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    background-color: #EAD7BB;
+}
+
+.main-page-food-place {
+    padding: 10px;
+    background-color: #BCA37F;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dishes-for-food-place {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.dish-food-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+}
+
+.regular-image {
+    height: 150px;
+    width: 150px;
+}
+
+.large-image {
+    height: 200px;
+    width: 200px;
+}
+
+.hidden-article {
+    display: none;
+    background-color: #BCA37F;
+}
+
+.show-article {
+    display: block;
+    background-color: #BCA37F;
+}
+
+
+/*
+*
+* CSS for meal plan html page
+*
+*/
+
+#meal-plan-flexbox{
+    display: flex;
+    gap: 30px;
+}
+
+#meal-plan-div{
+    float: right;
+    width: 600px;
+    background-color: #EAD7BB;
+}
+
+#meal-plan-aside{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    background-color: #BCA37F;
+}
+
+#meal-plan-aside img{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+}
+
+#item-label {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish-item-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dish-item-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.total-payment {
+    display: flex;
+    justify-content: space-between;
+}
