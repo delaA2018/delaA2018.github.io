@@ -1,0 +1,53 @@
+.player-choice-box {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#player-choice-image {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+#player-choice-image img {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.player-choice{
+    border: 5px solid black;
+}
+
+.computer-choice-box {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#computer-choice-image {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+#computer-choice-image img {
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#result {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 15px;
+}

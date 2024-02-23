@@ -1,0 +1,46 @@
+<!--
+    Arturo De La Fuente-Gonzalez
+    CSC 300X
+    February 22 2024
+
+    The purpose of this application is to replicate the Rock, Paper, Scissors Game using Timers and 
+    Callback functions. It should be noted that the Player Score and Computer Score 
+    do not work at this time.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>Rock, Paper, Scissors Game</title>
+</head>
+<body>
+
+    <section class="player-choice-box">
+        <div id="player-choice-image">
+            <img id = "optionRock" src="Images/rock.PNG" alt="rock.png" >
+            <img id = "optionPaper" src="Images/paper.PNG" alt="paper.png"  >
+            <img id = "optionScissors" src="Images/scissors.PNG" alt="scissors.png" >
+        </div>
+        <p>Your Throw</p>
+    </section>
+    <br>
+    
+    <section class="computer-choice-box">
+        <div class="computer-choice-image">
+            <img id = "optionComputer" src="Images/question-mark.PNG" alt="question-mark.png">
+        </div>
+        <br>
+        <p>Computer</p>
+    </section>
+    <br>
+
+    <section id="result">
+        <p id = "result-tag">Results:</p>
+        <p id = "player-score">Player's Score: </p>
+        <p id = "computer-score">Computer's Score: </p>
+        <button id = "resetBtn" type ="button">Reset</button>
+    </section>
+</body>
+</html>
